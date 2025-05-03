@@ -92,4 +92,16 @@
   //   isSingle: true,
   // };
   // console.log(b);
+  // ** Function
+  // let myFunc: Function;
+  // myFunc = () => {
+  //   console.log("Hello");
+  // };
+  // myFunc();
+
+  const myFunc = (a: string, b: number, c?: boolean) => {
+    console.log(`This is ${a} and this is ${b}, and ${c}`);
+  };
+
+  myFunc("String", 2025, true);
 }

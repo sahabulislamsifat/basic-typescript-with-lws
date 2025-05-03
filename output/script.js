@@ -93,4 +93,14 @@
     //   isSingle: true,
     // };
     // console.log(b);
+    // ** Function
+    // let myFunc: Function;
+    // myFunc = () => {
+    //   console.log("Hello");
+    // };
+    // myFunc();
+    const myFunc = (a, b, c) => {
+        console.log(`This is ${a} and this is ${b}, and ${c}`);
+    };
+    myFunc("String", 2025, true);
 }
