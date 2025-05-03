@@ -98,10 +98,51 @@
   //   console.log("Hello");
   // };
   // myFunc();
-
-  const myFunc = (a: string, b: number, c?: boolean) => {
-    console.log(`This is ${a} and this is ${b}, and ${c}`);
-  };
-
-  myFunc("String", 2025, true);
+  // const myFunc = (a: string, b: number, c?: boolean) => {
+  //   console.log(`This is ${a} and this is ${b}, and ${c}`);
+  // };
+  // myFunc("String", 2025, true);
+  //** Type Aliases */
+  // type stringOrNumber = string | number;
+  // type userType = { name: string; age: number };
+  // const userDetails = (id: stringOrNumber, user: userType) => {
+  //   console.log(`User id is ${id} and user type is ${user}`);
+  // };
+  // const sayHello = (user: userType) => {
+  //   console.log(`Hello From ${user}`);
+  // };
+  // sayHello()
+  // ** Function Signature
+  // let add: (x: number, y: number) => number;
+  // add = (x: number, y: number) => {
+  //   return x + y;
+  // };
+  // let calculation: (x: number, y: number, z: string) => number;
+  // calculation = (a: number, b: number, c: string) => {
+  //   if (c === "add") {
+  //     return a + b;
+  //   } else {
+  //     return a - b;
+  //   }
+  // };
+  // const result = calculation(5, 6, "add");
+  // const result = calculation(5, 6, "minus");
+  // console.log(result);
+  // let userDetails: (
+  //   id: number | string,
+  //   userInfo: {
+  //     name: string;
+  //     age: number;
+  //   }
+  // ) => void;
+  // userDetails = (
+  //   id: number | string,
+  //   user: {
+  //     name: string;
+  //     age: number;
+  //   }
+  // ) => {
+  //   console.log(`this is user id ${id} and this is user info ${user}`);
+  // };
+  // userDetails(55, ('Sifat' 22) )
 }
