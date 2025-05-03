@@ -145,4 +145,25 @@
   //   console.log(`this is user id ${id} and this is user info ${user}`);
   // };
   // userDetails(55, ('Sifat' 22) )
+
+  // ** Classes
+  class Player {
+    name: string;
+    age: number;
+    country: string;
+
+    constructor(n: string, a: number, c: string) {
+      (this.name = n), (this.age = a), (this.country = c);
+    }
+
+    play() {
+      console.log(`${this.name} from ${this.country} `);
+    }
+  }
+
+  const mashrafi = new Player("Mashrafi", 40, "Bangladesh");
+  const tamim = new Player("Tamim", 35, "Dhaka,Bangladesh");
+  // console.log(mashrafi);
+  // console.log(tamim.name);
+  console.log(tamim.age);
 }
