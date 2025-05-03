@@ -8,6 +8,16 @@
   //   );
   // };
   // technologies("Javascript", "September, 1995");
+
+  // console.log("Hello");
+  // const country = "Bangladesh";
+  // console.log(country);
+  // const technologies = (name: string, established: string) => {
+  //   console.log(
+  //     `The name of technologies ${name} and it has estublished since ${established} years`
+  //   );
+  // };
+  // technologies("Javascript", "September, 1995");
   // let playerName = "Mashrafi";
   // console.log(playerName);
   // playerName = 22;
@@ -25,13 +35,52 @@
   //   name: "Sifat",
   // });
   // console.log(mixed);
+  // Object
+  // let person = {
+  //   name: "Sifat",
+  //   age: 22,
+  //   isCapital: true,
+  // };
+  // person.country("Rangpur");
+
+  // let a;
+  // a = 5;
+  // a = "string";
+
+  // let a: string;
+  // let b: number;
+
+  // a = "Ayan";
+  // console.log(a);
+
+  // ** Union types
+
+  // Normal Variable
+  let b: string | number;
+
+  //array
+  let a: (string | number)[] = [];
+
+  b = "Sifat";
+  console.log(b);
+
+  // a = ["Sahabul Islam Sifat", 22];
+  // console.log(a);
+
+  // a.push('Sifat', 22, false)
 
   // Object
-  let person = {
-    name: "Sifat",
-    age: 22,
-    isCapital: true,
+  let c: {
+    name: string;
+    age: number;
+    isAdmin: boolean;
   };
 
-  person.country("Rangpur");
+  // c=[]
+  c = {
+    name: "SIfat",
+    age: 22,
+    isAdmin: true,
+  };
+  console.log(c);
 }
